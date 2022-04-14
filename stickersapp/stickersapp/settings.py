@@ -101,9 +101,9 @@ WSGI_APPLICATION = 'stickersapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'stickersproject_DB',
-        'USER': 'root',
-        'PASSWORD': '',
+        'NAME': 'stickersproject_DB', #здесь должно быть название базы данных, находящейся на хостинге
+        'USER': 'root', #имя пользователя на хостинге
+        'PASSWORD': '', #пароль от базы данных на хостинге
         'HOST': 'localhost',
         'PORT': 3306, # Стандартный порт MySQL
         'OPTIONS': {'charset': 'utf8'},
